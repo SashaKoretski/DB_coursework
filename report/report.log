@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.12)  6 APR 2025 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.12)  7 APR 2025 00:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -727,7 +727,8 @@ File: listings.cfg 2023/02/27 1.9 listings configuration
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
 (C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-)) (C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+)
+(C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2024-11-19 v3.3.24 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count301
 \l__siunitx_number_exponent_fixed_int=\count302
@@ -771,11 +772,50 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip56
 \backup@length=\skip57
 \ar@cellbox=\box67
-))
+)))
+(C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/10/28 v0.6c Insert pages of external PDF documents (AM)
+
+(C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count315
+\calc@Bcount=\count316
+\calc@Adimen=\dimen191
+\calc@Bdimen=\dimen192
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count317
+\calc@Cskip=\skip60
+)
+(C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen193
+\ESO@tempdimb=\dimen194
+)
+\AM@pagewidth=\dimen195
+\AM@pageheight=\dimen196
+\AM@fboxrule=\dimen197
+
+(C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/10/28 v0.6c Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count318
+\AM@pagebox=\box68
+\AM@global@opts=\toks31
+\AM@pagecnt=\count319
+\AM@toc@title=\toks32
+\AM@lof@heading=\toks33
+\c@AM@survey=\count320
+\AM@templatesizebox=\box69
+)
 LaTeX Font Info:    Trying to load font information for T2A+ptm on input line 7
 .
 LaTeX Font Info:    No file T2Aptm.fd. on input line 7.
-
 
 LaTeX Font Warning: Font shape `T2A/ptm/m/n' undefined
 (Font)              using `T2A/cmr/m/n' instead on input line 7.
@@ -784,10 +824,10 @@ LaTeX Font Warning: Font shape `T2A/ptm/m/n' undefined
 (C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count315
-\l__pdf_internal_box=\box68
-) (report.aux (02-contents.aux) (03-introduction.aux) (10-analysis.aux)
-(20-references.aux))
+\l__color_backend_stack_int=\count321
+\l__pdf_internal_box=\box70
+) (report.aux (01-title.aux) (02-contents.aux) (03-introduction.aux)
+(10-analysis.aux) (20-references.aux))
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -815,17 +855,17 @@ LaTeX Info: Redefining \th on input line 7.
 (C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count316
-\scratchdimen=\dimen191
-\scratchbox=\box69
-\nofMPsegments=\count317
-\nofMParguments=\count318
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count319
-\MPscratchDim=\dimen192
-\MPnumerator=\count320
-\makeMPintoPDFobject=\count321
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count322
+\scratchdimen=\dimen198
+\scratchbox=\box71
+\nofMPsegments=\count323
+\nofMParguments=\count324
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count325
+\MPscratchDim=\dimen199
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
+\everyMPtoPDFconversion=\toks35
 )
 (C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -879,7 +919,7 @@ Package hyperref Info: Link coloring OFF on input line 7.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count322
+\c@lstlisting=\count328
 Package translations Info: no dictionary file `translations-basic-dictionary-ru
 ssian.trsl' found. on input line 7.
 
@@ -890,6 +930,74 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 7.
+
+(C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\sasak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+\openout2 = `01-title.aux'.
+
+
+(01-title.tex
+
+pdfTeX warning: pdflatex (file ./img/title.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<img/title.pdf, id=15, 597.53635pt x 845.04686pt>
+File: img/title.pdf Graphic file (type pdf)
+<use img/title.pdf>
+Package pdftex.def Info: img/title.pdf  used on input line 1.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+
+
+pdfTeX warning: pdflatex (file ./img/title.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+File: img/title.pdf Graphic file (type pdf)
+<use img/title.pdf>
+Package pdftex.def Info: img/title.pdf  used on input line 1.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+
+
+pdfTeX warning: pdflatex (file ./img/title.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./img/title.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<img/title.pdf, id=18, page=1, 597.53635pt x 845.04686pt>
+File: img/title.pdf Graphic file (type pdf)
+<use img/title.pdf, page 1>
+Package pdftex.def Info: img/title.pdf , page1 used on input line 1.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+File: img/title.pdf Graphic file (type pdf)
+<use img/title.pdf, page 1>
+Package pdftex.def Info: img/title.pdf , page1 used on input line 1.
+(pdftex.def)             Requested size: 597.56223pt x 845.08348pt.
+File: img/title.pdf Graphic file (type pdf)
+<use img/title.pdf, page 1>
+Package pdftex.def Info: img/title.pdf , page1 used on input line 1.
+(pdftex.def)             Requested size: 597.56223pt x 845.08348pt.
+File: img/title.pdf Graphic file (type pdf)
+<use img/title.pdf, page 1>
+Package pdftex.def Info: img/title.pdf , page1 used on input line 1.
+(pdftex.def)             Requested size: 597.56223pt x 845.08348pt.
+File: img/title.pdf Graphic file (type pdf)
+<use img/title.pdf, page 1>
+Package pdftex.def Info: img/title.pdf , page1 used on input line 1.
+(pdftex.def)             Requested size: 597.56223pt x 845.08348pt.
+[1
+
+
+
+ <./img/title.pdf>])
 \openout2 = `02-contents.aux'.
 
  (02-contents.tex
@@ -912,6 +1020,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \openout4 = `report.toc'.
 
  [2
+
 
 
 {C:/Users/sasak/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
@@ -959,8 +1068,8 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 68.
 See the caption package documentation for explanation.
 
-(report.aux (02-contents.aux) (03-introduction.aux) (10-analysis.aux)
-(20-references.aux))
+(report.aux (01-title.aux) (02-contents.aux) (03-introduction.aux)
+(10-analysis.aux) (20-references.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -977,19 +1086,19 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 8A7F9141ACF3B4FD728C839FBC020ED6;601.
  ) 
 Here is how much of TeX's memory you used:
- 20880 strings out of 474485
- 393325 string characters out of 5743733
+ 21781 strings out of 474485
+ 409689 string characters out of 5743733
  1928542 words of memory out of 5000000
- 42886 multiletter control sequences out of 15000+600000
+ 43752 multiletter control sequences out of 15000+600000
  560783 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,5n,107p,522b,917s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,17n,107p,522b,1059s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\sasak\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm14
 40.pk> <C:\Users\sasak\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 rm1728.pk>
-Output written on report.pdf (4 pages, 48485 bytes).
+Output written on report.pdf (5 pages, 193588 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
