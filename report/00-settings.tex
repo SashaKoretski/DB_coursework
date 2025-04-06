@@ -1,0 +1,70 @@
+% Пакеты и настройки
+
+% Поддержка кириллицы
+\usepackage[utf8]{inputenc}
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{mathptmx}
+
+\usepackage{amsmath,amsfonts,amssymb} % Математические символы
+\usepackage{graphicx}          % Для вставки изображений
+\usepackage{geometry}          % Настройка полей
+\usepackage{float}             % Фиксация местоположения таблиц и рисунков
+\usepackage{hyperref}          % Ссылки
+\usepackage{titlesec}          % Для оформления заголовков разделов
+\usepackage{xcolor}			  % Цвета
+
+% Отключаем добавление библиографии и содержания в оглавление
+\usepackage[notbib,nottoc]{tocbibind}
+
+\usepackage{setspace} % Для междустрочных интервалов
+\onehalfspacing % Полуторный интервал
+
+\usepackage{hyperref} % Пакет для ссылок (в источниках)
+
+% Настройка полей
+\geometry{left=30mm, right=15mm, top=20mm, bottom=20mm}
+
+% Настройка стиля заголовков
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\usepackage{caption} % Для настройки подписей
+\captionsetup[figure]{justification=centering} % Центрирование подписей к рисункам
+% Изменяем текст "Рис." на "Рисунок"
+\addto\captionsrussian{\renewcommand{\figurename}{Рисунок}}
+% Настраиваем разделитель с ":" на " -"
+\captionsetup[figure]{labelsep=endash} % Используем длинное тире для разделителя
+
+% Настройка внешнего вида подписей таблиц
+\captionsetup[table]{justification=centering, labelsep=endash} % Центрируем и используем тире вместо двоеточия
+
+% Для кода
+\usepackage{listings}
+% Настройка стиля для кода
+\lstset{
+    language=Python,            % Язык кода
+    basicstyle=\ttfamily\footnotesize,  % Базовый стиль текста и размер шрифта
+    backgroundcolor=\color{gray!10},    % Цвет фона
+    frame=single,              % Рамка вокруг листинга
+    breaklines=true,           % Переносить строки
+    captionpos=b,              % Позиция заголовка (caption) снизу
+    tabsize=4,                 % Размер табуляции
+    commentstyle=\color{gray}, % Стиль комментариев
+    keywordstyle=\color{blue}, % Стиль ключевых слов
+    stringstyle=\color{red},   % Стиль строк
+    showstringspaces=false,    % Не отображать пробелы в строках
+    numbers=left, % Нумерация строк слева
+    numberstyle=\tiny\color{gray}, % Стиль нумерации строк
+    stepnumber=1, % Шаг нумерации строк
+    numbersep=5pt, % Расстояние между нумерацией и текстом
+    breaklines=true, % Перенос длинных строк
+    aboveskip=1em, % Расстояние выше листинга
+    belowskip=1em, % Расстояние ниже листинга
+}
+
+% Изменяем разделитель в подписях
+\captionsetup[lstlisting]{labelsep=endash} % Используем длинное тире
+
+\usepackage{siunitx} % Пакет для выравнивания таблицы
