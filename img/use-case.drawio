@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
   <diagram name="Страница — 1" id="w_lFXddrGqPjPAL7E5iz">
-    <mxGraphModel dx="534" dy="401" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="610" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,21 +37,27 @@
         <mxCell id="8lYfrokgDacJiOp0odQK-2" value="Выбрать точку деформации" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="375" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="17_6KKMnwn-uGj-AgSd_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="17_6KKMnwn-uGj-AgSd_-1">
+        <mxCell id="17_6KKMnwn-uGj-AgSd_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;" parent="1" source="17_6KKMnwn-uGj-AgSd_-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="375.11764705882354" y="365.7647058823529" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="17_6KKMnwn-uGj-AgSd_-1" value="Выбрать направление дейформации" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="17_6KKMnwn-uGj-AgSd_-1" value="Выбрать направление дейформации" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="285" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="17_6KKMnwn-uGj-AgSd_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="17_6KKMnwn-uGj-AgSd_-4">
+        <mxCell id="17_6KKMnwn-uGj-AgSd_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;startFill=0;" parent="1" source="17_6KKMnwn-uGj-AgSd_-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="375" y="452.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="17_6KKMnwn-uGj-AgSd_-4" value="Получить статистику" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="17_6KKMnwn-uGj-AgSd_-4" value="Получить статистику" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="478" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SOS9H8TK4m6KroPZ2non-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="SOS9H8TK4m6KroPZ2non-1" target="3MKfPfhFdVEVH39Xw8Wg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOS9H8TK4m6KroPZ2non-1" value="Сжать трубку" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="456" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
