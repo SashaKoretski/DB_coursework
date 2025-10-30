@@ -1,0 +1,36 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{ВВЕДЕНИЕ}{5}{Doc-Start}%
+\contentsline {section}{\numberline {1}Аналитическая часть}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Постановка задачи}{6}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Формализация данных}{8}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Выбор модели данных}{9}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Реляционная модель}{9}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Документо-ориентированная модель}{10}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}База данных временных рядов}{11}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Объектно-ориентированная модель}{11}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}Графовые базы данных}{11}{subsubsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.4}Выбор системы управления базами данных}{12}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Вывод}{13}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Конструкторская часть}{14}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Проектирование базы данных}{14}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Таблицы базы данных}{14}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Хранимые процедуры и функции}{17}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Триггеры базы данных}{18}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Вывод}{19}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Технологическая часть}{20}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Анализ систем управления базами данных}{20}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Выбор СУБД для решения задачи}{20}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Выбор средств реализации}{21}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Детали реализации}{22}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Создание таблиц}{22}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Хранимые процедуры и функции}{24}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Триггеры базы данных}{27}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}Пример работы программы}{27}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Вывод}{30}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Исследовательская часть}{31}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Технические характеристики}{31}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Замеры времени выполнения деформации в зависимости от количества сечений}{31}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Замеры времени выполнения деформации в зависимости от количества точек}{32}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Вывод}{33}{subsection.4.4}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{34}{subsection.4.4}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{35}{Item.20}%

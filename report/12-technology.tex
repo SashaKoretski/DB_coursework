@@ -1,0 +1,126 @@
+\section{Технологическая часть}
+
+\noindent
+В данном разделе рассматриваются выбранные средства реализации и представлены листинги кода реализованных алгоритмов для вычисления расстояний Левенштейна и Дамерау~---~Левенштейна, а также тестирование для проверки их корректности.
+
+\subsection{Требования к программному обеспечению}
+
+\noindent
+\hspace{0.75cm}
+Программа принимает на вход две чувствительные к регистру строки и рассчитывает расстояние между ними с помощью реализованных алгоритмов: для расстояния Левенштейна — итерационный и рекурсивный методы (с кешем и без), для расстояния Дамерау~---~Левенштейна — рекурсивный метод без кеша. Также программа выводит время выполнения каждого алгоритма.
+
+\subsection{Выбор средств реализации}
+
+\noindent
+\hspace{0.75cm}
+В качестве языка программирования выбран Python, так как он предоставляет средства для разработки и тестирования алгоритмов, построения графиков. Для замеров процессорного времени используется функция \texttt{process\_time()} из библиотеки \texttt{time}~\cite{process_time_text}.
+
+\subsection{Реализации алгоритмов}
+
+\noindent
+\hspace{0.75cm}
+В листингах~\ref{lev_matrix},~\ref{lev_recursion_classic},~\ref{lev_recursion_optimized},~\ref{dlev_recursion} приведены реализации алгоритмов Левенштейна и Дамерау~---~Левенштейна.
+
+\begin{lstlisting}[caption=Итеративная реализация алгоритма Левенштейна с заполнением матрицы, label=lev_matrix]
+def levenstein_distance_matrix(str1, str2):
+    rows, cols = len(str1) + 1, len(str2) + 1
+    dist_matrix = [[0 for _ in range(cols)] for _ in range(rows)]
+    for i in range(1, rows):
+        dist_matrix[i][0] = i
+    for j in range(1, cols):
+        dist_matrix[0][j] = j
+    for i in range(1, rows):
+        for j in range(1, cols):
+            insertion = dist_matrix[i][j - 1] + 1
+            deletion = dist_matrix[i - 1][j] + 1
+            replacement = dist_matrix[i - 1][j - 1] + (str1[i - 1] !=
+             str2[j - 1])
+            dist_matrix[i][j] = min(insertion, deletion, replacement)
+    return dist_matrix[-1][-1]
+\end{lstlisting}
+
+\begin{lstlisting}[caption=Рекурсивный алгоритм Левенштейна без кеширования, label=lev_recursion_classic]
+def levenstein_distance_recursive(str1, str2):
+    if not str1:
+        return len(str2)
+    if not str2:
+        return len(str1)
+    insertion = levenstein_distance_recursive(str1, str2[:-1]) + 1
+    deletion = levenstein_distance_recursive(str1[:-1], str2) + 1
+    replacement = levenstein_distance_recursive(str1[:-1], str2[:-1]) +
+     (str1[-1] != str2[-1])
+    return min(insertion, deletion, replacement)
+\end{lstlisting}
+
+\begin{lstlisting}[caption=Рекурсивный алгоритм Левенштейна с кешированием, label=lev_recursion_optimized]
+def levenstein_distance_recursive_cache(str1, str2, memo=None):
+    if memo is None:
+        memo = {}
+    if (str1, str2) in memo:
+        return memo[(str1, str2)]
+    if not str1:
+        result = len(str2)
+    elif not str2:
+        result = len(str1)
+    else:
+        insertion = levenstein_distance_recursive_cache(str1,
+         str2[:-1], memo) + 1
+        deletion = levenstein_distance_recursive_cache(str1[:-1],
+         str2, memo) + 1
+        replacement = levenstein_distance_recursive_cache(str1[:-1],
+         str2[:-1], memo) + (str1[-1] != str2[-1])
+        result = min(insertion, deletion, replacement)
+    memo[(str1, str2)] = result
+    return result
+\end{lstlisting}
+
+\begin{lstlisting}[caption=Рекурсивная реализация алгоритма Дамерау~---~Левенштейна без кеширования, label=dlev_recursion]
+def damerau_levenstein_distance_recursive(str1, str2):
+    if not str1:
+        return len(str2)
+    if not str2:
+        return len(str1)
+    insertion = damerau_levenstein_distance_recursive(str1,
+     str2[:-1]) + 1
+    deletion = damerau_levenstein_distance_recursive(str1[:-1],
+     str2) + 1
+    replacement = damerau_levenstein_distance_recursive(str1[:-1],
+     str2[:-1]) + (str1[-1] != str2[-1])
+    if len(str1) > 1 and len(str2) > 1 and str1[-1] ==
+     str2[-2] and str1[-2] == str2[-1]:
+        xchange = damerau_levenstein_distance_recursive(str1[:-2],
+         str2[:-2]) + 1
+        return min(insertion, deletion, replacement, xchange)
+    else:
+        return min(insertion, deletion, replacement)
+\end{lstlisting}
+
+\subsection{Тестирование}
+
+\noindent
+\hspace{0.75cm}
+В таблице~\ref{test_results} приведены результаты тестирования алгоритмов на различных входных данных.
+
+\captionsetup[table]{justification=raggedright, singlelinecheck=false}
+
+\begin{table}[H]
+    \caption{Результаты тестирования алгоритмов Левенштейна и Дамерау~---~Левенштейна}
+    \label{test_results}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Строка 1} & \textbf{Строка 2} & \textbf{Левенштейн} & \textbf{Дамерау~---~Левенштейн} \\
+        \hline 
+        «пустая строка» & «пустая строка» & 0 & 0 \\
+        «пустая строка» & «abc» & 3 & 3 \\
+        «abc» & «bac» & 2 & 1 \\ 
+		«kitten» & «sitting» & 3 & 3 \\  
+		«flaw» & «lawn» & 2 & 2 \\  
+		«abcdef» & «azced» & 4 & 3 \\  
+		«gamblo» & «gambol» & 2 & 1 \\  
+		«kit» & «kitten» & 3 & 3 \\  
+		«intention» & «execution» & 5 & 5 \\  
+		«опечатка» & «печатка» & 1 & 1 \\  
+        «кот» & «скат» & 2 & 2 \\
+        \hline
+    \end{tabular}
+\end{table}
