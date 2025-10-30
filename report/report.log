@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.3)  10 APR 2025 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.3)  10 APR 2025 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,28 +1046,33 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 (D:\Files\MiKTex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<img/er_РґРёР°РіСЂР°РјРјР°.jpg, id=110, 605.26125pt x 584.1825pt>
+<img/er_РґРёР°РіСЂР°РјРјР°.jpg, id=110, 818.05624pt x 854.19125pt>
 File: img/er_РґРёР°РіСЂР°РјРјР°.jpg Graphic file (type jpg)
 <use img/er_РґРёР°РіСЂР°РјРјР°.jpg>
 Package pdftex.def Info: img/er_РґРёР°РіСЂР°РјРјР°.jpg  used on input line 39.
-(pdftex.def)             Requested size: 422.52057pt x 407.81071pt.
- [6
+(pdftex.def)             Requested size: 492.94543pt x 514.72144pt.
+
+Overfull \hbox (23.47495pt too wide) in paragraph at lines 39--40
+ [][] 
+ []
+
+[6
 
 
 
 {D:/Files/MiKTex/fonts/enc/dvips/base/8r.enc}]
-<img/use-case.jpg, id=121, 402.50375pt x 244.915pt>
+<img/use-case.jpg, id=121, 544.0325pt x 245.91875pt>
 File: img/use-case.jpg Graphic file (type jpg)
 <use img/use-case.jpg>
 Package pdftex.def Info: img/use-case.jpg  used on input line 52.
-(pdftex.def)             Requested size: 422.52057pt x 257.09357pt.
- [7 <./img/er_РґРёР°РіСЂР°РјРјР°.jpg>] [8 <./img/use-case.jpg>]
+(pdftex.def)             Requested size: 422.52057pt x 191.00157pt.
+ [7 <./img/er_РґРёР°РіСЂР°РјРјР°.jpg>]
 Overfull \hbox (17.71178pt too wide) in paragraph at lines 83--86
   \T2A/ptm/b/n/14.4 Объ-ект-ная мо-дель БД стро-ит-ся на прин-ци-пах объектно-о
 риентированного
  []
 
-) [9]
+[8 <./img/use-case.jpg>]) [9]
 \openout2 = `20-references.aux'.
 
  (20-references.tex
@@ -1118,7 +1123,7 @@ m1440.pk> <C:\Users\alexandr\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
 600\larm1728.pk><D:/Files/MiKTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/
 Files/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Files/MiKTex/fonts/ty
 pe1/urw/times/utmr8a.pfb><D:/Files/MiKTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (8 pages, 325875 bytes).
+Output written on report.pdf (8 pages, 406052 bytes).
 PDF statistics:
  329 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)

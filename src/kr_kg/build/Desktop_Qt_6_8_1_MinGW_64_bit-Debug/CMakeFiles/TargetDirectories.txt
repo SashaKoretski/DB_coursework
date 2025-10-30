@@ -1,0 +1,9 @@
+D:/Proga/Studies/KR_BD/src/kr_kg/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/kr_kg.dir
+D:/Proga/Studies/KR_BD/src/kr_kg/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Proga/Studies/KR_BD/src/kr_kg/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Proga/Studies/KR_BD/src/kr_kg/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/Proga/Studies/KR_BD/src/kr_kg/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/Proga/Studies/KR_BD/src/kr_kg/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/Proga/Studies/KR_BD/src/kr_kg/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/Proga/Studies/KR_BD/src/kr_kg/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/kr_kg_autogen_timestamp_deps.dir
+D:/Proga/Studies/KR_BD/src/kr_kg/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/kr_kg_autogen.dir
